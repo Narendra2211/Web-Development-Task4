@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Web Page</title>
+  <link rel="stylesheet" href="task4.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Narendra Website</h1>
+    <button class="menu-toggle">☰</button>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="content">
+      <div class="column">
+        <h2>1. About Google</h2>
+        <p>Google is a global technology leader best known for its powerful search engine,
+           innovative products,
+            and commitment to making information universally accessible.
+            Founded in 1998 by Larry Page and Sergey Brin, Google has expanded far beyond search,
+            offering services like Gmail, Google Maps, YouTube, and the Android operating system.
+            The company continues to invest in artificial intelligence, cloud computing, and other
+            emerging technologies to enhance user experiences and solve complex problems around the world.</p>
+
+      </div>
+      <div class="column">
+        <h2>2. Google’s Impact on Daily Life</h2>
+        <p>From finding quick answers to navigating new cities,
+           Google has become an essential part of everyday life for
+           billions of people. Its search engine processes over 8.5 billion queries per day,
+           while tools like Google Drive, Google Photos, and Google Meet help individuals and businesses 
+           stay connected and productive. With a focus on innovation and accessibility, Google continues to 
+           shape the way we learn, communicate, and explore the world around us</p>
+      </div>
+    </section>
+
+    <img src="google_PNG102344.png" alt="Sample Image" />
+  </main>
+
+  <footer>
+    <p>© 2025 Narendra Website</p>
+  </footer>
+
+  <script>
+    // Toggle mobile menu
+    document.querySelector('.menu-toggle').addEventListener('click', function() {
+      document.querySelector('nav ul').classList.toggle('show');
+    });
+  </script>
+
+</body>
+</html>
